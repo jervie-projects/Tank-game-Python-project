@@ -1,0 +1,10 @@
+# Force GitHub to recognize this project as Python
+*.py linguist-language=Python
+
+# Ignore non-code folders in language stats
+.idea/* linguist-vendored
+Images/* linguist-vendored
+Sounds/* linguist-vendored
+
+# Ignore the README for language analysis
+README.md linguist-documentation
